@@ -15,6 +15,18 @@
       "version": "1.11.5",
       "toolsId": "80633e34-37f9-4e3a-a6fd-caedbc7153e3"
     },
+    "crossNavigation": {
+      "inbounds": {
+        "Risks-display": {
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          },
+          "semanticObject": "Risks",
+          "action": "display"
+        }
+      }
+    },
     "dataSources": {
       "mainService": {
         "uri": "/odata/v4/service/risk/",
@@ -133,5 +145,9 @@
   "sap.fiori": {
     "registrationIds": [],
     "archeType": "transactional"
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "cpapp.service"
   }
 }

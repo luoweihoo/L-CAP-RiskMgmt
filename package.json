@@ -31,8 +31,13 @@
   "cds": {
     "requires": {
       "[production]": {
-        "db": "hana",
+        "db": {
+          "kind": "hana-cloud"
+        },
         "auth": "xsuaa"
+      },
+      "db": {
+        "kind": "sql"
       },
       "[development]": {
         "auth": {
